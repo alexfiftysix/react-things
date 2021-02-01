@@ -1,0 +1,11 @@
+.article {
+  margin-top: 200px;
+  width: 200px;
+
+  transition: .5s;
+
+  &.hidden {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+}
